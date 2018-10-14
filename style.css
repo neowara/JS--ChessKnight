@@ -1,0 +1,16 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#chess {
+    padding: 0px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
