@@ -2,15 +2,11 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Kodchasan', sans-serif;
 }
 
-#chess {
-    padding: 0px;
-    margin: 0 auto;
-    border: 3px solid black;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+img {
+    width: 20%;
+    height: 20%;
+    padding: 10px;
 }
