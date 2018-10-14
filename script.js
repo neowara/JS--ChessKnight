@@ -27,6 +27,7 @@ function horseKnight(cell) {
     
     // this will go through every possible combination of X and Y positions
     // and push it to our PossibleMoves array, if it isn't there already
+    //then it will print the output in console.log 
     
     for (var i = 0; i < cellXpositions.length; i++) {
         for (var j = 0; j < cellYpositions.length; j++) {
