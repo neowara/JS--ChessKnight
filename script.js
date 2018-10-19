@@ -12,7 +12,7 @@ function horseKnight(cell) {
         cellX + 1,
         cellX - 1
     ].filter(function(cellPosition){
-        return (cellPosition > 0 && cellPosition < 9);
+        return (cellPosition >= 0 && cellPosition < 8);
     });
 
     //this will find all possible Y positions 
@@ -22,7 +22,7 @@ function horseKnight(cell) {
         cellY + 1,
         cellY - 1
     ].filter(function(cellPosition){
-        return (cellPosition > 0 && cellPosition < 9);
+        return (cellPosition >= 0 && cellPosition < 8);
     });
     
     // this will go through every possible combination of X and Y positions
